@@ -15,6 +15,6 @@ def stock_picker(stocks)
     end
   end
 
-  puts "Best days are: #{best_days}"
+  best_days
 end
-stock_picker(stock_prices)
+puts "Best days are: #{stock_picker(stock_prices)}"
